@@ -1,0 +1,7 @@
+[workspace]
+members = [
+	"blazing_rust_brief",
+    "blazing_rust_actix",
+    "blazing_rust_piston",
+	"blazing_rust_brief_derive",
+]

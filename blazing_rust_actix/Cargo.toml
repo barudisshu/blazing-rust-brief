@@ -1,0 +1,27 @@
+[package]
+name = "blazing_rust_actix"
+version = "0.1.0"
+authors = ["Galudisu <galudisu@gmail.com>"]
+edition = "2018"
+
+license = "MIT/Apache-2.0"
+readme = "README.MD"
+
+[[bin]]
+name = "server"
+path = "src/main.rs"
+
+[[bin]]
+name = "client"
+path = "src/client.rs"
+
+[dependencies]
+actix-web = "0.7.19"
+rand = "0.3"
+bytes = "0.4"
+byteorder = "1.1"
+futures = "0.1"
+
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
